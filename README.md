@@ -11,6 +11,7 @@ docker build -t aminehy/sphinx-doc:v2.0.0 .
 docker push aminehy/sphinx-doc:v2.0.0
 
 
+
 ## Login to docker hub and push the image to docker hub
 docker login
 docker push aminehy/sphinx-doc:v2.0.0
