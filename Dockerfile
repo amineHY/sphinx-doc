@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 
-ENV VERSION="2.1.2"
+ENV VERSION="2.0.0"
 
 RUN apk --no-cache add make py3-pip python3-dev && \
     pip3 install --upgrade pip &&\
