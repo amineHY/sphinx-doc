@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+LABEL maintainer "Amine Hadj-Youcef  <hadjyoucef.amine@gmail.com>"
+
 
 ENV VERSION="2.0.0"
 
