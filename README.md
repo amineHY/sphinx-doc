@@ -1,6 +1,6 @@
 # sphinx-doc
 This repository contains information about docker image to run sphinx for building documentation
-
+Link to docker hub: https://hub.docker.com/r/aminehy/sphinx-doc
 
 ## Compile the documentation with sphinx
 sudo docker run -it -v $(pwd):/workspace -e USER_ID=$UID aminehy/sphinx-doc:v2.1.2  make html
