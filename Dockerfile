@@ -1,6 +1,7 @@
 FROM alpine:latest
 
 LABEL maintainer "Amine Hadj-Youcef  <hadjyoucef.amine@gmail.com>"
+# Connect with me: LinkedIn - https://www.linkedin.com/in/aminehy/
 
 ENV VERSION="2.1.2"
 
@@ -14,4 +15,3 @@ RUN apk --no-cache add make py3-pip python3-dev && \
     pip3 install sphinxcontrib-mermaid
 
 WORKDIR /workspace
-
